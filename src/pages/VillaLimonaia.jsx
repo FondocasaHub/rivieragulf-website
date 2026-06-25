@@ -134,7 +134,7 @@ export default function VillaLimonaia() {
             </div>
             <div className="info-card">
               <h3>Contatti</h3>
-              <p><strong>Telefono:</strong><br /><a href="tel:+39393788233">+39 393 788 2334</a><br /><br /><strong>Email:</strong><br /><a href="mailto:info@rivieragulf.it">info@rivieragulf.it</a></p>
+              <p><strong>Telefono:</strong><br /><a href="tel:+393937882334">+39 393 788 2334</a><br /><br /><strong>Email:</strong><br /><a href="mailto:info@rivieragulf.it">info@rivieragulf.it</a></p>
             </div>
           </div>
         </div>

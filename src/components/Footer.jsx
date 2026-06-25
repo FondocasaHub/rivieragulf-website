@@ -26,7 +26,7 @@ export default function Footer() {
               </li>
               <li>
                 <strong>{t('footer.telefono')}:</strong><br />
-                <a href="tel:+39081000000">+39 081 000 0000</a>
+                <a href="tel:+393937882334">+39 393 788 2334</a>
               </li>
             </ul>
           </div>

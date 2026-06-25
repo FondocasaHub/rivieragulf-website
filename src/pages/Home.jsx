@@ -132,6 +132,33 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contatti */}
+      <section id="contatti" className="section">
+        <div className="container">
+          <h2>Contatti</h2>
+          <div className="divider divider-center"></div>
+
+          <div className="contact-grid">
+            <div className="contact-card">
+              <h3>Telefono</h3>
+              <a href="tel:+393937882334" className="contact-link">
+                +39 393 788 2334
+              </a>
+            </div>
+            <div className="contact-card">
+              <h3>Email</h3>
+              <a href="mailto:info@rivieragulf.it" className="contact-link">
+                info@rivieragulf.it
+              </a>
+            </div>
+            <div className="contact-card">
+              <h3>Posizioni</h3>
+              <p className="contact-info">Capri • Piano di Sorrento<br />Campania, Italia</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Finale */}
       <section className="section section-dark cta-final">
         <div className="container-sm">
