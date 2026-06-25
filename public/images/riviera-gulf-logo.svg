@@ -1,18 +1,43 @@
-<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle -->
-  <circle cx="60" cy="60" r="58" fill="none" stroke="#0a3a5e" stroke-width="1"/>
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant+Garamond:ital@0;1&display=swap');
+      .riviera-text {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 72px;
+        font-style: italic;
+        font-weight: 400;
+        fill: #000;
+        letter-spacing: -2px;
+      }
+      .gulf-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        font-weight: 700;
+        fill: #000;
+        letter-spacing: 4px;
+      }
+      .subtitle-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 10px;
+        font-weight: 400;
+        fill: #666;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .accent-line {
+        stroke: #c9a961;
+        stroke-width: 2;
+        fill: none;
+      }
+    </style>
+  </defs>
 
-  <!-- Main wave/curve representing Riviera -->
-  <path d="M 25 55 Q 40 45, 55 55 T 95 55" fill="none" stroke="#1e5a8e" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Accent line -->
+  <line x1="80" y1="125" x2="180" y2="125" class="accent-line"/>
 
-  <!-- Secondary wave -->
-  <path d="M 25 65 Q 40 75, 55 65 T 95 65" fill="none" stroke="#c9a961" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- Decorative dots -->
-  <circle cx="30" cy="60" r="1.5" fill="#c9a961"/>
-  <circle cx="90" cy="60" r="1.5" fill="#c9a961"/>
-
-  <!-- Small accent lines -->
-  <line x1="25" y1="50" x2="32" y2="48" stroke="#c9a961" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-  <line x1="95" y1="50" x2="88" y2="48" stroke="#c9a961" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Main text -->
+  <text x="200" y="95" class="riviera-text" text-anchor="middle">Riviera</text>
+  <text x="200" y="130" class="gulf-text" text-anchor="middle">GULF</text>
+  <text x="200" y="160" class="subtitle-text" text-anchor="middle">PROPERTY MANAGEMENT</text>
 </svg>
