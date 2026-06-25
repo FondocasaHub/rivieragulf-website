@@ -18,7 +18,8 @@
 
 .logo {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   text-decoration: none;
   transition: transform var(--transition-normal);
 }
@@ -27,10 +28,23 @@
   transform: scale(1.02);
 }
 
-.logo-image {
-  height: 60px;
-  width: auto;
-  object-fit: contain;
+.logo-text {
+  font-family: var(--font-primary);
+  font-size: 1.8rem;
+  color: var(--color-primary-navy);
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.logo-subtitle {
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+  color: var(--color-accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 4px;
+  font-style: italic;
 }
 
 .nav {
@@ -94,8 +108,8 @@
     padding: var(--spacing-md);
   }
 
-  .logo-image {
-    height: 50px;
+  .logo-text {
+    font-size: 1.4rem;
   }
 
   .menu-toggle {
