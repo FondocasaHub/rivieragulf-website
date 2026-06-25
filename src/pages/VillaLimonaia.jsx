@@ -135,7 +135,7 @@ export default function VillaLimonaia() {
         <div className="container">
           <h2>Disponibilità e Prenotazione</h2>
           <div className="divider divider-center"></div>
-          <SmoobuWidget propertyId="villa-limonaia" propertyName="Villa Limonaia" />
+          <SmoobuWidget propertyId="3393306" propertyName="Villa Limonaia" />
         </div>
       </section>
 

@@ -152,7 +152,7 @@ export default function ResidenzaManuela() {
         <div className="container">
           <h2>Disponibilità e Prenotazione</h2>
           <div className="divider divider-center"></div>
-          <SmoobuWidget propertyId="residenza-manuela" propertyName="Residenza Manuela" />
+          <SmoobuWidget propertyId="3393051" propertyName="Residenza Manuela" />
         </div>
       </section>
 
