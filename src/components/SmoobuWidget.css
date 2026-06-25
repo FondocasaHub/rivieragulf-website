@@ -1,0 +1,37 @@
+.smoobu-widget-container {
+  background: var(--color-light-gray);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+  border: 1px solid var(--color-medium-gray);
+}
+
+.smoobu-widget-container [data-smoobu-widget] {
+  font-family: var(--font-secondary);
+}
+
+/* Smoobu Widget Styling Override */
+.smoobu-widget-container ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.smoobu-widget-container ::-webkit-scrollbar-track {
+  background: var(--color-light-gray);
+  border-radius: 4px;
+}
+
+.smoobu-widget-container ::-webkit-scrollbar-thumb {
+  background: var(--color-accent-gold);
+  border-radius: 4px;
+}
+
+.smoobu-widget-container ::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-light-gold);
+}
+
+@media (max-width: 768px) {
+  .smoobu-widget-container {
+    padding: var(--spacing-lg);
+    margin: var(--spacing-lg) 0;
+  }
+}

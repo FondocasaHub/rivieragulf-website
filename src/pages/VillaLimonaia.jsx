@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import SmoobuWidget from '../components/SmoobuWidget';
 import './PropertyDetail.css';
 
 export default function VillaLimonaia() {
@@ -129,12 +130,21 @@ export default function VillaLimonaia() {
         </div>
       </section>
 
+      {/* Disponibilità & Prenotazione */}
+      <section className="section">
+        <div className="container">
+          <h2>Disponibilità e Prenotazione</h2>
+          <div className="divider divider-center"></div>
+          <SmoobuWidget propertyId="villa-limonaia" propertyName="Villa Limonaia" />
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="section section-dark cta-property">
         <div className="container-sm">
-          <h2>Prenota Villa Limonaia</h2>
-          <p>Scopri le tariffe e disponibilità complete</p>
-          <button className="btn btn-primary">Visualizza Disponibilità Calendario</button>
+          <h2>Hai Domande?</h2>
+          <p>Contattaci per informazioni personalizzate o per prenotazioni speciali</p>
+          <a href="mailto:info@rivieragulf.it" className="btn btn-primary">Contattaci Direttamente</a>
         </div>
       </section>
     </div>

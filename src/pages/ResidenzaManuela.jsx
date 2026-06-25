@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import SmoobuWidget from '../components/SmoobuWidget';
 import './PropertyDetail.css';
 
 export default function ResidenzaManuela() {
@@ -146,12 +147,21 @@ export default function ResidenzaManuela() {
         </div>
       </section>
 
+      {/* Disponibilità & Prenotazione */}
+      <section className="section">
+        <div className="container">
+          <h2>Disponibilità e Prenotazione</h2>
+          <div className="divider divider-center"></div>
+          <SmoobuWidget propertyId="residenza-manuela" propertyName="Residenza Manuela" />
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="section section-dark cta-property">
         <div className="container-sm">
-          <h2>Prenota Residenza Manuela</h2>
-          <p>Scopri le date disponibili e le tariffe specifiche</p>
-          <button className="btn btn-primary">Visualizza Calendario Disponibilità</button>
+          <h2>Hai Domande?</h2>
+          <p>Contattaci per informazioni personalizzate o per prenotazioni speciali</p>
+          <a href="mailto:info@rivieragulf.it" className="btn btn-primary">Contattaci Direttamente</a>
         </div>
       </section>
     </div>
