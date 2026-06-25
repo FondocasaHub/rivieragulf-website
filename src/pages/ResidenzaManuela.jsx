@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import SmoobuWidget from '../components/SmoobuWidget';
+import PhotoGallery from '../components/PhotoGallery';
 import './PropertyDetail.css';
 
 export default function ResidenzaManuela() {
@@ -46,6 +47,15 @@ export default function ResidenzaManuela() {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Galleria Foto */}
+      <section className="section">
+        <div className="container">
+          <h2>Galleria Fotografica</h2>
+          <div className="divider divider-center"></div>
+          <PhotoGallery propertyName="Residenza Manuela" folderPath="/images/residenza-manuela" />
         </div>
       </section>
 

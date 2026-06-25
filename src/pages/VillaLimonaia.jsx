@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import SmoobuWidget from '../components/SmoobuWidget';
+import PhotoGallery from '../components/PhotoGallery';
 import './PropertyDetail.css';
 
 export default function VillaLimonaia() {
@@ -81,6 +82,15 @@ export default function VillaLimonaia() {
             <h3>{t('villaLimonaia.spazi_comuni')}</h3>
             <p>{t('villaLimonaia.spazi_comuni_desc')}</p>
           </div>
+        </div>
+      </section>
+
+      {/* Galleria Foto */}
+      <section className="section">
+        <div className="container">
+          <h2>Galleria Fotografica</h2>
+          <div className="divider divider-center"></div>
+          <PhotoGallery propertyName="Villa Limonaia" folderPath="/images/villa-limonaia" />
         </div>
       </section>
 
