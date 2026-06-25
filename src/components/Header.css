@@ -18,33 +18,21 @@
 
 .logo {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
   transition: transform var(--transition-normal);
+  height: 60px;
 }
 
 .logo:hover {
   transform: scale(1.02);
 }
 
-.logo-text {
-  font-family: var(--font-primary);
-  font-size: 1.8rem;
-  color: var(--color-primary-navy);
-  line-height: 1;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
-.logo-subtitle {
-  font-family: var(--font-secondary);
-  font-size: 0.75rem;
-  color: var(--color-accent-gold);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 4px;
-  font-style: italic;
+.logo-image {
+  height: 100%;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
 }
 
 .nav {
@@ -108,8 +96,12 @@
     padding: var(--spacing-md);
   }
 
-  .logo-text {
-    font-size: 1.4rem;
+  .logo {
+    height: 50px;
+  }
+
+  .logo-image {
+    max-width: 220px;
   }
 
   .menu-toggle {

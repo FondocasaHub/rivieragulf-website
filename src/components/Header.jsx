@@ -24,8 +24,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-text">Riviera Gulf</span>
-          <span className="logo-subtitle">Property Management</span>
+          <img src="/images/logo-official.png" alt="Riviera Gulf" className="logo-image" />
         </Link>
 
         <button className="menu-toggle" onClick={toggleMenu}>
